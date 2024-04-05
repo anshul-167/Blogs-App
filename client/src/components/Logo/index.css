@@ -1,0 +1,18 @@
+/* Logo styles */
+.logo-cont {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.logo-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(220, 220, 220);
+}

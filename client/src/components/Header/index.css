@@ -1,0 +1,26 @@
+.nav {
+  padding: 20px 5% 20px 5%;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchbox {
+  color: azure;
+}
+
+.logo-link-cont {
+  margin: auto;
+}
+
+@media (max-width: 770px) {
+  .searchbox-cont {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+}

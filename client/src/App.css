@@ -1,0 +1,70 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif; /* Set default font family */
+}
+
+/* Main App container styles */
+.App {
+  min-height: 100vh; /* Full height of the viewport */
+  text-align: center; /* Center align text */
+  padding-bottom: 30px; /* Add padding at the bottom */
+  background-image: linear-gradient(
+    to right,
+    #0f2027,
+    #203a43,
+    #2c5364
+  ); /* Gradient background */
+  box-shadow: 5px 5px 5px 5px #ccc; /* Add shadow */
+}
+
+/* Heading styles */
+h1 {
+  color: aliceblue; /* Set text color */
+  text-align: start; /* Left align text */
+  padding-left: 4%; /* Add padding on the left */
+  width: fit-content; /* Adjust width to fit content */
+  background-clip: inherit; /* Use background clip */
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin; /* Set height */
+  pointer-events: none; /* Disable pointer events */
+}
+
+/* Logo animation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Rotate animation */
+  }
+}
+
+/* Header styles */
+.App-header {
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: #282c34; /* Set background color */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Column direction */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Center justify content */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* Set text color */
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb; /* Set link color */
+}
+
+/* Logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Start rotation */
+  }
+  to {
+    transform: rotate(360deg); /* End rotation */
+  }
+}

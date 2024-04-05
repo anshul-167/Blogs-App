@@ -1,0 +1,55 @@
+.bd-cont {
+  padding: 0 3% 0 3%;
+}
+.bd-img {
+  width: 100%;
+  aspect-ratio: 3.5;
+}
+.bd-title-cont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bd-title {
+  text-align: left;
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 5% 0 0 0;
+}
+span {
+  text-align: left;
+  color: rgb(142, 142, 142);
+  font-size: 11px;
+  font-weight: 400;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.bd-user {
+  text-align: left;
+  color: rgb(223, 223, 223);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 4px;
+}
+.bd-description {
+  text-align: left;
+  color: rgb(252, 254, 255);
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0px 5% 0px 5%;
+}
+
+.bd-time {
+  text-align: left;
+  color: aliceblue;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 300;
+}
+hr {
+  margin: 3% 40% 3% 40%;
+  border-color: rgb(186, 186, 186);
+}
